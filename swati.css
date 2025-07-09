@@ -1,0 +1,421 @@
+body {
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding: 0;
+    color: #333;  
+}
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont-detail {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.cont-detail .add{
+    position: absolute;
+    right: 0;
+    margin:0px 100px 5px 0px;
+    border: 1px solid;
+}
+.cont-detail a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    display: flex;
+    align-items: center;
+}
+.cont-detail a:hover {
+    text-decoration: underline; 
+}
+.add {
+    background-color: #e74c3c; 
+    padding: 8px 15px; 
+    border-radius: 5px; 
+    color: white; 
+    font-weight: bold; 
+    margin-right: auto;
+}
+.add:hover {
+    background-color: #c0392b; 
+}
+.fa-envelope, .fa-phone {
+    margin-right: 5px; 
+}
+.logo {
+    display: flex;               
+    align-items: center;         
+    justify-content: space-between; 
+    background-color: white;
+    padding: 10px 20px;
+}
+.insti-logo {
+    width: 200px;                
+    height: auto;                
+    flex-shrink: 0;              
+    margin-right: 20px;          
+}
+.nav-sec {
+    display: flex;               
+    align-items: center;         
+    gap: 15px;                   
+}
+#cnt {
+    text-decoration: none;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#cnt:hover {
+    background-color: #c0392b;
+}
+.select {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.sel-option {
+    color: white;
+    background-color: #555;
+}
+.insti-about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #ffffff;
+}
+.about {
+    max-width: 50%;
+}
+.about h4 {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+.about h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+.about button {
+    padding:15px;
+    margin-right: 10px;
+    background-color: lightgreen;
+    color: blue;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.about button a{
+    text-decoration: none;
+    font: bold;
+    font-size: 18px;
+}
+.about button:hover {
+    background-color: #2980b9;
+}
+.registration {
+    max-width: 40%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.registration input,
+.registration select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.registration button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.registration button:hover {
+    background-color: #c0392b;
+}
+.course {
+    background-color: #f4f4f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+.course h2 {
+    font-size: 36px;
+    color: #2a5298;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.course-part {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-spacing: 15px;
+    text-align: center;
+}
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #ff4c4c;
+    color: white;
+    font-size: 16px;
+}
+td {
+    background-color: white;
+    color: #333;
+}
+td a.con {
+    color: #ff4c4c;
+    text-decoration: none;
+}
+td a.con:hover {
+    text-decoration: underline;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.about-p{
+    display: flex;
+}
+.about-image {
+    padding-right: 20px;
+    margin-top: 20px;
+    align-self: flex-end;
+}
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+.about-content {
+    flex: 1;
+    padding-left: 20px;
+}
+.about-content h2 {
+    font-size: 36px;
+    color: #2a5298;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.about-content button {
+    background-color: #2a5298;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.about-p button a{
+    text-decoration: none;
+    color: white;
+}
+.about-content button:hover {
+    background-color: #1e3c72;
+}
+.soft{
+    text-align: center;
+    font-size: 50px;
+    /* border-radius: 5px; */
+    color: darkblue;
+    font: bold;
+}
+.software {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.cmp-logo{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.cmp-logo img{
+    height: 130px;
+}
+.why-choose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.text-content {
+    max-width: 50%;
+}
+.why {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin-left: 60px;
+}
+.why-ul{
+    font-size: 16px;
+    line-height: 35px;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #d62828;
+}
+.choose img {
+    height: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+    margin-right: 80px;
+}
+
+/* ############################################## Card Section ############################### */
+
+/* Card Styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent; /* Transparent background */
+    border-radius: 10px;
+    padding: 0; /* Remove extra padding */
+    width: auto; /* Auto width to fit the content */
+    box-shadow: none; /* Remove box-shadow if unnecessary */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Card Link Styling */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Image Styling */
+.card-img {
+    width: 100%;
+    height: 200px; /* Consistent height for all images */
+    object-fit: cover; /* Fills the card area properly */
+    border-radius: 10px;
+}
+
+/* Title Styling */
+.title {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Button Styling */
+.card-button {
+    width: 40px;
+    height: 40px;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 50%;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Table Adjustments */
+.course-table td {
+    text-align: center;
+    vertical-align: top;
+    padding: 10px; /* Reduced padding */
+}
+
+
+
+.map {
+    margin-top: 20px;
+}
+iframe {
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-size: 14px; 
+    width: 100%;
+}
+footer p {
+    margin: 0; 
+    line-height: 1.6; 
+}
+footer a {
+    color: #ff3b3b; 
+    text-decoration: none; 
+}
+footer a:hover {
+    text-decoration: underline; 
+}
